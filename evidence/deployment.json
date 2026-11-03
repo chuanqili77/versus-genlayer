@@ -1,0 +1,9 @@
+{
+  "network": "Stable Studionet",
+  "chainId": 61999,
+  "contractAddress": "0x5daDB9584f0cb94CAabE765946CB3aAb6e4f277C",
+  "deployTx": "0x8ca04cc1120a4fc2210aed04d68f8e67d343b4bb66f12438fa91e25c91d01164",
+  "deployer": "0x992d0685e47e5644c458b3C95fedA36F4675be6e",
+  "sourceSha256": "2f43cf9c5331aae093a6c130029e023abbcd512677e3956f5feeda1ef61373a7",
+  "protocol": "versus-1"
+}

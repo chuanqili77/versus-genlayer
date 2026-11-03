@@ -1,0 +1,464 @@
+{
+  "network": "Stable Studionet",
+  "chainId": 61999,
+  "contractAddress": "0x5daDB9584f0cb94CAabE765946CB3aAb6e4f277C",
+  "deployTx": "0x8ca04cc1120a4fc2210aed04d68f8e67d343b4bb66f12438fa91e25c91d01164",
+  "sourceSha256": "2f43cf9c5331aae093a6c130029e023abbcd512677e3956f5feeda1ef61373a7",
+  "protocol": "versus-1",
+  "evidencePages": {
+    "auroraStrong": "https://dpaste.org/q2gwq/raw",
+    "borealWeak": "https://dpaste.org/aOm7Y/raw",
+    "auroraWeak": "https://dpaste.org/FjeME/raw",
+    "borealStrong": "https://dpaste.org/zMVtC/raw",
+    "cinderTie": "https://dpaste.org/HmiE6/raw",
+    "duneTie": "https://dpaste.org/TReTF/raw",
+    "emberValid": "https://dpaste.org/LUgRA/raw"
+  },
+  "unreachableUrl": "https://no-such-host-xyz-12345.invalid/evidence.txt",
+  "steps": [
+    {
+      "label": "create-match-0",
+      "hash": "0x658c56dc544538692c7c183bfb54c9a7dfaba0c85eca654bcb7feadfb448b0a5",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "errorPayload": null
+    },
+    {
+      "label": "judge-match-0 (attempt 1)",
+      "hash": "0xdd5af50cdbc5ee5a61fce00795d04a7b19ae256b33cc94c4b072aca83d3db966",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "errorPayload": null
+    },
+    {
+      "label": "create-match-1",
+      "hash": "0xbcdead53c6751a4bada116148de171687e689c52fbd0d9ab407be06a0fc394a9",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "errorPayload": null
+    },
+    {
+      "label": "judge-match-1 (attempt 1)",
+      "hash": "0xc1ffcec3f253ba3dba9028bc284b56d9170dbef588db840003680792e0ad824d",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "errorPayload": null
+    },
+    {
+      "label": "create-match-2",
+      "hash": "0xfc8f546b283d3b50117e3d77c7119b40bcf7a5261477d91afa979130a05bf321",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "errorPayload": null
+    },
+    {
+      "label": "judge-match-2 (attempt 1)",
+      "hash": "0x171daff50e2366ca205390b280fcca7255ba86e72c3e037df8f4162a28cedea0",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "errorPayload": null
+    },
+    {
+      "label": "create-match-3",
+      "hash": "0x4165639de4097449d922f67fc4a3d2c0dd68c7f29ec110022bf965cfe25cfcc2",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "errorPayload": null
+    },
+    {
+      "label": "judge-match-3-unreachable (attempt 1)",
+      "hash": "0xf4fe9c800a7952c736fc4fd7a10a4c2b91e8b9a5c1da32455f0e931420a48732",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "errorPayload": "EVIDENCE_UNAVAILABLE"
+    },
+    {
+      "label": "rejudge-match-0",
+      "hash": "0x039da63d639a3a307be24371f20bef96c08654c91d2f32dd204250b2bac5674f",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "errorPayload": "ALREADY_JUDGED"
+    },
+    {
+      "label": "judge-missing-match",
+      "hash": "0xa88d970de67b586e7af783a86feb2a00f2fa9f90dbbd2f11da5d6d13cd37aeb9",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "errorPayload": "NOT_FOUND"
+    },
+    {
+      "label": "create-bad-url-http",
+      "hash": "0x58794016f44b7d367063c2aa5b943999386c37d5dcf7bca447d2da87a39f4250",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "errorPayload": "INVALID_URL"
+    },
+    {
+      "label": "create-bad-url-garbage",
+      "hash": "0x7df84f7af1b2198e214a2673c4e05f01aa3a6529696e4d40561e5edbda3c87ab",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "errorPayload": "INVALID_URL"
+    },
+    {
+      "label": "create-filler-0",
+      "hash": "0x3ec940214f596a16fe9d720982e188649a2efddd944c94f05f3193876d8b5771",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "errorPayload": "\"{\\\"contestant_a\\\": \\\"Filler\\\", \\\"contestant_b\\\": \\\"Dummy\\\", \\\"creator\\\": \\\"0xac632a07b5e90dbdd21634d5d0ddd1fb19589a03\\\", \\\"evidence_a_url\\\": \\\"https://example.com/a\\\", \\\"evidence_b_url\\\": \\\"https://example.com/b\\\", \\\"key_a\\\": \\\"filler\\\", \\\"key_b\\\": \\\"dummy\\\", \\\"match_id\\\": \\\"match-4\\\", \\\"protocol\\\": \\\"versus-1\\\", \\\"quote\\\": \\\"\\\", \\\"reason\\\": \\\"\\\", \\\"status\\\": \\\"PENDING\\\", \\\"title\\\": \\\"Filler 0\\\", \\\"winner\\\": \\\"\\\"}\""
+    },
+    {
+      "label": "create-filler-1",
+      "hash": "0x4b89b766d32e360f9540d1ce107f46b9789ebb511ff967f7656af73926736b00",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "errorPayload": "\"{\\\"contestant_a\\\": \\\"Filler\\\", \\\"contestant_b\\\": \\\"Dummy\\\", \\\"creator\\\": \\\"0xac632a07b5e90dbdd21634d5d0ddd1fb19589a03\\\", \\\"evidence_a_url\\\": \\\"https://example.com/a\\\", \\\"evidence_b_url\\\": \\\"https://example.com/b\\\", \\\"key_a\\\": \\\"filler\\\", \\\"key_b\\\": \\\"dummy\\\", \\\"match_id\\\": \\\"match-5\\\", \\\"protocol\\\": \\\"versus-1\\\", \\\"quote\\\": \\\"\\\", \\\"reason\\\": \\\"\\\", \\\"status\\\": \\\"PENDING\\\", \\\"title\\\": \\\"Filler 1\\\", \\\"winner\\\": \\\"\\\"}\""
+    },
+    {
+      "label": "create-filler-2",
+      "hash": "0xa3c00f61232c61089fa5d43b63572cb69d1132d041e4d0f72fc742ce4b478b50",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "errorPayload": "\"{\\\"contestant_a\\\": \\\"Filler\\\", \\\"contestant_b\\\": \\\"Dummy\\\", \\\"creator\\\": \\\"0xac632a07b5e90dbdd21634d5d0ddd1fb19589a03\\\", \\\"evidence_a_url\\\": \\\"https://example.com/a\\\", \\\"evidence_b_url\\\": \\\"https://example.com/b\\\", \\\"key_a\\\": \\\"filler\\\", \\\"key_b\\\": \\\"dummy\\\", \\\"match_id\\\": \\\"match-6\\\", \\\"protocol\\\": \\\"versus-1\\\", \\\"quote\\\": \\\"\\\", \\\"reason\\\": \\\"\\\", \\\"status\\\": \\\"PENDING\\\", \\\"title\\\": \\\"Filler 2\\\", \\\"winner\\\": \\\"\\\"}\""
+    },
+    {
+      "label": "create-filler-3",
+      "hash": "0x0c9776bac6b5fb811b294c5e0e8faa41061aa5bd67f88b8f602529731be13860",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "errorPayload": "\"{\\\"contestant_a\\\": \\\"Filler\\\", \\\"contestant_b\\\": \\\"Dummy\\\", \\\"creator\\\": \\\"0xac632a07b5e90dbdd21634d5d0ddd1fb19589a03\\\", \\\"evidence_a_url\\\": \\\"https://example.com/a\\\", \\\"evidence_b_url\\\": \\\"https://example.com/b\\\", \\\"key_a\\\": \\\"filler\\\", \\\"key_b\\\": \\\"dummy\\\", \\\"match_id\\\": \\\"match-7\\\", \\\"protocol\\\": \\\"versus-1\\\", \\\"quote\\\": \\\"\\\", \\\"reason\\\": \\\"\\\", \\\"status\\\": \\\"PENDING\\\", \\\"title\\\": \\\"Filler 3\\\", \\\"winner\\\": \\\"\\\"}\""
+    },
+    {
+      "label": "create-filler-4",
+      "hash": "0xba4b583d17b7ecac85a38d9034e1d9ff07f7c2771b98b996b367c7b8f627812f",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "errorPayload": "\"{\\\"contestant_a\\\": \\\"Filler\\\", \\\"contestant_b\\\": \\\"Dummy\\\", \\\"creator\\\": \\\"0xac632a07b5e90dbdd21634d5d0ddd1fb19589a03\\\", \\\"evidence_a_url\\\": \\\"https://example.com/a\\\", \\\"evidence_b_url\\\": \\\"https://example.com/b\\\", \\\"key_a\\\": \\\"filler\\\", \\\"key_b\\\": \\\"dummy\\\", \\\"match_id\\\": \\\"match-8\\\", \\\"protocol\\\": \\\"versus-1\\\", \\\"quote\\\": \\\"\\\", \\\"reason\\\": \\\"\\\", \\\"status\\\": \\\"PENDING\\\", \\\"title\\\": \\\"Filler 4\\\", \\\"winner\\\": \\\"\\\"}\""
+    },
+    {
+      "label": "create-filler-5",
+      "hash": "0x7f90a0a9bf5c6d70c7a1957696f2e9f3bb1de1b910b1363bfb0b88e0a4ac11bf",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "errorPayload": "\"{\\\"contestant_a\\\": \\\"Filler\\\", \\\"contestant_b\\\": \\\"Dummy\\\", \\\"creator\\\": \\\"0xac632a07b5e90dbdd21634d5d0ddd1fb19589a03\\\", \\\"evidence_a_url\\\": \\\"https://example.com/a\\\", \\\"evidence_b_url\\\": \\\"https://example.com/b\\\", \\\"key_a\\\": \\\"filler\\\", \\\"key_b\\\": \\\"dummy\\\", \\\"match_id\\\": \\\"match-9\\\", \\\"protocol\\\": \\\"versus-1\\\", \\\"quote\\\": \\\"\\\", \\\"reason\\\": \\\"\\\", \\\"status\\\": \\\"PENDING\\\", \\\"title\\\": \\\"Filler 5\\\", \\\"winner\\\": \\\"\\\"}\""
+    },
+    {
+      "label": "create-filler-6",
+      "hash": "0x34ab64aa9ffa6d239523bb0f4f46fb5a425c4655fa205813687e47e208dfe875",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "errorPayload": "\"{\\\"contestant_a\\\": \\\"Filler\\\", \\\"contestant_b\\\": \\\"Dummy\\\", \\\"creator\\\": \\\"0xac632a07b5e90dbdd21634d5d0ddd1fb19589a03\\\", \\\"evidence_a_url\\\": \\\"https://example.com/a\\\", \\\"evidence_b_url\\\": \\\"https://example.com/b\\\", \\\"key_a\\\": \\\"filler\\\", \\\"key_b\\\": \\\"dummy\\\", \\\"match_id\\\": \\\"match-10\\\", \\\"protocol\\\": \\\"versus-1\\\", \\\"quote\\\": \\\"\\\", \\\"reason\\\": \\\"\\\", \\\"status\\\": \\\"PENDING\\\", \\\"title\\\": \\\"Filler 6\\\", \\\"winner\\\": \\\"\\\"}\""
+    },
+    {
+      "label": "create-filler-7",
+      "hash": "0x6b7df2436bde3a824385ce22d761f800888fa5e139e63557bca2e066ade6110c",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "errorPayload": "\"{\\\"contestant_a\\\": \\\"Filler\\\", \\\"contestant_b\\\": \\\"Dummy\\\", \\\"creator\\\": \\\"0xac632a07b5e90dbdd21634d5d0ddd1fb19589a03\\\", \\\"evidence_a_url\\\": \\\"https://example.com/a\\\", \\\"evidence_b_url\\\": \\\"https://example.com/b\\\", \\\"key_a\\\": \\\"filler\\\", \\\"key_b\\\": \\\"dummy\\\", \\\"match_id\\\": \\\"match-11\\\", \\\"protocol\\\": \\\"versus-1\\\", \\\"quote\\\": \\\"\\\", \\\"reason\\\": \\\"\\\", \\\"status\\\": \\\"PENDING\\\", \\\"title\\\": \\\"Filler 7\\\", \\\"winner\\\": \\\"\\\"}\""
+    },
+    {
+      "label": "create-filler-8",
+      "hash": "0xd729c03eb69b1c34dcd33bf37f30f9d4b0e43d3fce83e7aee34ab042e78fea1d",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "errorPayload": "\"{\\\"contestant_a\\\": \\\"Filler\\\", \\\"contestant_b\\\": \\\"Dummy\\\", \\\"creator\\\": \\\"0xac632a07b5e90dbdd21634d5d0ddd1fb19589a03\\\", \\\"evidence_a_url\\\": \\\"https://example.com/a\\\", \\\"evidence_b_url\\\": \\\"https://example.com/b\\\", \\\"key_a\\\": \\\"filler\\\", \\\"key_b\\\": \\\"dummy\\\", \\\"match_id\\\": \\\"match-12\\\", \\\"protocol\\\": \\\"versus-1\\\", \\\"quote\\\": \\\"\\\", \\\"reason\\\": \\\"\\\", \\\"status\\\": \\\"PENDING\\\", \\\"title\\\": \\\"Filler 8\\\", \\\"winner\\\": \\\"\\\"}\""
+    },
+    {
+      "label": "create-filler-9",
+      "hash": "0xab6c40a57e11e0c0703743475d7babc97e4670ca38f98eb8c20c7c61a5fe6ad4",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "errorPayload": "\"{\\\"contestant_a\\\": \\\"Filler\\\", \\\"contestant_b\\\": \\\"Dummy\\\", \\\"creator\\\": \\\"0xac632a07b5e90dbdd21634d5d0ddd1fb19589a03\\\", \\\"evidence_a_url\\\": \\\"https://example.com/a\\\", \\\"evidence_b_url\\\": \\\"https://example.com/b\\\", \\\"key_a\\\": \\\"filler\\\", \\\"key_b\\\": \\\"dummy\\\", \\\"match_id\\\": \\\"match-13\\\", \\\"protocol\\\": \\\"versus-1\\\", \\\"quote\\\": \\\"\\\", \\\"reason\\\": \\\"\\\", \\\"status\\\": \\\"PENDING\\\", \\\"title\\\": \\\"Filler 9\\\", \\\"winner\\\": \\\"\\\"}\""
+    },
+    {
+      "label": "create-filler-10",
+      "hash": "0x7077190b4752e79152d8c8f30613e514e1757778890f129c3018c280fdaeac84",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "errorPayload": "\"{\\\"contestant_a\\\": \\\"Filler\\\", \\\"contestant_b\\\": \\\"Dummy\\\", \\\"creator\\\": \\\"0xac632a07b5e90dbdd21634d5d0ddd1fb19589a03\\\", \\\"evidence_a_url\\\": \\\"https://example.com/a\\\", \\\"evidence_b_url\\\": \\\"https://example.com/b\\\", \\\"key_a\\\": \\\"filler\\\", \\\"key_b\\\": \\\"dummy\\\", \\\"match_id\\\": \\\"match-14\\\", \\\"protocol\\\": \\\"versus-1\\\", \\\"quote\\\": \\\"\\\", \\\"reason\\\": \\\"\\\", \\\"status\\\": \\\"PENDING\\\", \\\"title\\\": \\\"Filler 10\\\", \\\"winner\\\": \\\"\\\"}\""
+    },
+    {
+      "label": "create-filler-11",
+      "hash": "0xec976da671b4d4d66f0f10fea094702e3628690169888494996d3a6bd74e5683",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "errorPayload": "\"{\\\"contestant_a\\\": \\\"Filler\\\", \\\"contestant_b\\\": \\\"Dummy\\\", \\\"creator\\\": \\\"0xac632a07b5e90dbdd21634d5d0ddd1fb19589a03\\\", \\\"evidence_a_url\\\": \\\"https://example.com/a\\\", \\\"evidence_b_url\\\": \\\"https://example.com/b\\\", \\\"key_a\\\": \\\"filler\\\", \\\"key_b\\\": \\\"dummy\\\", \\\"match_id\\\": \\\"match-15\\\", \\\"protocol\\\": \\\"versus-1\\\", \\\"quote\\\": \\\"\\\", \\\"reason\\\": \\\"\\\", \\\"status\\\": \\\"PENDING\\\", \\\"title\\\": \\\"Filler 11\\\", \\\"winner\\\": \\\"\\\"}\""
+    },
+    {
+      "label": "create-filler-12",
+      "hash": "0x76cef83ddfe3b63c0c5e286218cea653ca2ffa1d5ff127e3a29fc120d78c0792",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "errorPayload": "\"{\\\"contestant_a\\\": \\\"Filler\\\", \\\"contestant_b\\\": \\\"Dummy\\\", \\\"creator\\\": \\\"0xac632a07b5e90dbdd21634d5d0ddd1fb19589a03\\\", \\\"evidence_a_url\\\": \\\"https://example.com/a\\\", \\\"evidence_b_url\\\": \\\"https://example.com/b\\\", \\\"key_a\\\": \\\"filler\\\", \\\"key_b\\\": \\\"dummy\\\", \\\"match_id\\\": \\\"match-16\\\", \\\"protocol\\\": \\\"versus-1\\\", \\\"quote\\\": \\\"\\\", \\\"reason\\\": \\\"\\\", \\\"status\\\": \\\"PENDING\\\", \\\"title\\\": \\\"Filler 12\\\", \\\"winner\\\": \\\"\\\"}\""
+    },
+    {
+      "label": "create-filler-13",
+      "hash": "0x6217c4bce834cef8839a4c0e1681b8c37d70f86583e468eca96a9ad7210eb659",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "errorPayload": "\"{\\\"contestant_a\\\": \\\"Filler\\\", \\\"contestant_b\\\": \\\"Dummy\\\", \\\"creator\\\": \\\"0xac632a07b5e90dbdd21634d5d0ddd1fb19589a03\\\", \\\"evidence_a_url\\\": \\\"https://example.com/a\\\", \\\"evidence_b_url\\\": \\\"https://example.com/b\\\", \\\"key_a\\\": \\\"filler\\\", \\\"key_b\\\": \\\"dummy\\\", \\\"match_id\\\": \\\"match-17\\\", \\\"protocol\\\": \\\"versus-1\\\", \\\"quote\\\": \\\"\\\", \\\"reason\\\": \\\"\\\", \\\"status\\\": \\\"PENDING\\\", \\\"title\\\": \\\"Filler 13\\\", \\\"winner\\\": \\\"\\\"}\""
+    },
+    {
+      "label": "create-filler-14",
+      "hash": "0x433d39b8606b7cca67b650e2f15f5ccba836dcb0ca5b966cbe5ef7dd8c8dc481",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "errorPayload": "\"{\\\"contestant_a\\\": \\\"Filler\\\", \\\"contestant_b\\\": \\\"Dummy\\\", \\\"creator\\\": \\\"0xac632a07b5e90dbdd21634d5d0ddd1fb19589a03\\\", \\\"evidence_a_url\\\": \\\"https://example.com/a\\\", \\\"evidence_b_url\\\": \\\"https://example.com/b\\\", \\\"key_a\\\": \\\"filler\\\", \\\"key_b\\\": \\\"dummy\\\", \\\"match_id\\\": \\\"match-18\\\", \\\"protocol\\\": \\\"versus-1\\\", \\\"quote\\\": \\\"\\\", \\\"reason\\\": \\\"\\\", \\\"status\\\": \\\"PENDING\\\", \\\"title\\\": \\\"Filler 14\\\", \\\"winner\\\": \\\"\\\"}\""
+    },
+    {
+      "label": "create-filler-15",
+      "hash": "0x4abe53203f8f0bbad8593c4ae8bb475a537d1b2bdfe7c4ec0cd96aaece35deb4",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "errorPayload": "\"{\\\"contestant_a\\\": \\\"Filler\\\", \\\"contestant_b\\\": \\\"Dummy\\\", \\\"creator\\\": \\\"0xac632a07b5e90dbdd21634d5d0ddd1fb19589a03\\\", \\\"evidence_a_url\\\": \\\"https://example.com/a\\\", \\\"evidence_b_url\\\": \\\"https://example.com/b\\\", \\\"key_a\\\": \\\"filler\\\", \\\"key_b\\\": \\\"dummy\\\", \\\"match_id\\\": \\\"match-19\\\", \\\"protocol\\\": \\\"versus-1\\\", \\\"quote\\\": \\\"\\\", \\\"reason\\\": \\\"\\\", \\\"status\\\": \\\"PENDING\\\", \\\"title\\\": \\\"Filler 15\\\", \\\"winner\\\": \\\"\\\"}\""
+    },
+    {
+      "label": "create-filler-16",
+      "hash": "0x6b6ee63d7ee6d06b02f6cb7be53822668977a8ea3eedfd16902e8ccf033580a9",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "errorPayload": "\"{\\\"contestant_a\\\": \\\"Filler\\\", \\\"contestant_b\\\": \\\"Dummy\\\", \\\"creator\\\": \\\"0xac632a07b5e90dbdd21634d5d0ddd1fb19589a03\\\", \\\"evidence_a_url\\\": \\\"https://example.com/a\\\", \\\"evidence_b_url\\\": \\\"https://example.com/b\\\", \\\"key_a\\\": \\\"filler\\\", \\\"key_b\\\": \\\"dummy\\\", \\\"match_id\\\": \\\"match-20\\\", \\\"protocol\\\": \\\"versus-1\\\", \\\"quote\\\": \\\"\\\", \\\"reason\\\": \\\"\\\", \\\"status\\\": \\\"PENDING\\\", \\\"title\\\": \\\"Filler 16\\\", \\\"winner\\\": \\\"\\\"}\""
+    },
+    {
+      "label": "create-filler-17",
+      "hash": "0x0ba4ed71c14be874cd96c727aaf2f7024566efe590908eb065f7442c31137874",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "errorPayload": "\"{\\\"contestant_a\\\": \\\"Filler\\\", \\\"contestant_b\\\": \\\"Dummy\\\", \\\"creator\\\": \\\"0xac632a07b5e90dbdd21634d5d0ddd1fb19589a03\\\", \\\"evidence_a_url\\\": \\\"https://example.com/a\\\", \\\"evidence_b_url\\\": \\\"https://example.com/b\\\", \\\"key_a\\\": \\\"filler\\\", \\\"key_b\\\": \\\"dummy\\\", \\\"match_id\\\": \\\"match-21\\\", \\\"protocol\\\": \\\"versus-1\\\", \\\"quote\\\": \\\"\\\", \\\"reason\\\": \\\"\\\", \\\"status\\\": \\\"PENDING\\\", \\\"title\\\": \\\"Filler 17\\\", \\\"winner\\\": \\\"\\\"}\""
+    },
+    {
+      "label": "create-filler-18",
+      "hash": "0x6833278f1d4e326dbf6b5aabedb4c6228c25baba217b3a73f2d7c78cda02653a",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "errorPayload": "\"{\\\"contestant_a\\\": \\\"Filler\\\", \\\"contestant_b\\\": \\\"Dummy\\\", \\\"creator\\\": \\\"0xac632a07b5e90dbdd21634d5d0ddd1fb19589a03\\\", \\\"evidence_a_url\\\": \\\"https://example.com/a\\\", \\\"evidence_b_url\\\": \\\"https://example.com/b\\\", \\\"key_a\\\": \\\"filler\\\", \\\"key_b\\\": \\\"dummy\\\", \\\"match_id\\\": \\\"match-22\\\", \\\"protocol\\\": \\\"versus-1\\\", \\\"quote\\\": \\\"\\\", \\\"reason\\\": \\\"\\\", \\\"status\\\": \\\"PENDING\\\", \\\"title\\\": \\\"Filler 18\\\", \\\"winner\\\": \\\"\\\"}\""
+    },
+    {
+      "label": "create-filler-19",
+      "hash": "0x88038a77a2c726c5ea9f1b5ea70f9f65e1f3968cb5ec71331f79a942e94d78df",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "errorPayload": "\"{\\\"contestant_a\\\": \\\"Filler\\\", \\\"contestant_b\\\": \\\"Dummy\\\", \\\"creator\\\": \\\"0xac632a07b5e90dbdd21634d5d0ddd1fb19589a03\\\", \\\"evidence_a_url\\\": \\\"https://example.com/a\\\", \\\"evidence_b_url\\\": \\\"https://example.com/b\\\", \\\"key_a\\\": \\\"filler\\\", \\\"key_b\\\": \\\"dummy\\\", \\\"match_id\\\": \\\"match-23\\\", \\\"protocol\\\": \\\"versus-1\\\", \\\"quote\\\": \\\"\\\", \\\"reason\\\": \\\"\\\", \\\"status\\\": \\\"PENDING\\\", \\\"title\\\": \\\"Filler 19\\\", \\\"winner\\\": \\\"\\\"}\""
+    },
+    {
+      "label": "create-filler-20",
+      "hash": "0x6ef6664a3d7148ab638c2bf6cde8149ab579f9715a9c0625f959caa142aed161",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "errorPayload": "\"{\\\"contestant_a\\\": \\\"Filler\\\", \\\"contestant_b\\\": \\\"Dummy\\\", \\\"creator\\\": \\\"0xac632a07b5e90dbdd21634d5d0ddd1fb19589a03\\\", \\\"evidence_a_url\\\": \\\"https://example.com/a\\\", \\\"evidence_b_url\\\": \\\"https://example.com/b\\\", \\\"key_a\\\": \\\"filler\\\", \\\"key_b\\\": \\\"dummy\\\", \\\"match_id\\\": \\\"match-24\\\", \\\"protocol\\\": \\\"versus-1\\\", \\\"quote\\\": \\\"\\\", \\\"reason\\\": \\\"\\\", \\\"status\\\": \\\"PENDING\\\", \\\"title\\\": \\\"Filler 20\\\", \\\"winner\\\": \\\"\\\"}\""
+    },
+    {
+      "label": "create-filler-21",
+      "hash": "0xd321870da87032649e4a7f89d028dcb6987b77522337f1e7d703ff385c5e933d",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "errorPayload": "\"{\\\"contestant_a\\\": \\\"Filler\\\", \\\"contestant_b\\\": \\\"Dummy\\\", \\\"creator\\\": \\\"0xac632a07b5e90dbdd21634d5d0ddd1fb19589a03\\\", \\\"evidence_a_url\\\": \\\"https://example.com/a\\\", \\\"evidence_b_url\\\": \\\"https://example.com/b\\\", \\\"key_a\\\": \\\"filler\\\", \\\"key_b\\\": \\\"dummy\\\", \\\"match_id\\\": \\\"match-25\\\", \\\"protocol\\\": \\\"versus-1\\\", \\\"quote\\\": \\\"\\\", \\\"reason\\\": \\\"\\\", \\\"status\\\": \\\"PENDING\\\", \\\"title\\\": \\\"Filler 21\\\", \\\"winner\\\": \\\"\\\"}\""
+    },
+    {
+      "label": "create-filler-22",
+      "hash": "0x6030d7604c8db8b6ce6589d6840b9fb0b6f2b98b0900a4ed461a25f465c76ac7",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "errorPayload": "\"{\\\"contestant_a\\\": \\\"Filler\\\", \\\"contestant_b\\\": \\\"Dummy\\\", \\\"creator\\\": \\\"0xac632a07b5e90dbdd21634d5d0ddd1fb19589a03\\\", \\\"evidence_a_url\\\": \\\"https://example.com/a\\\", \\\"evidence_b_url\\\": \\\"https://example.com/b\\\", \\\"key_a\\\": \\\"filler\\\", \\\"key_b\\\": \\\"dummy\\\", \\\"match_id\\\": \\\"match-26\\\", \\\"protocol\\\": \\\"versus-1\\\", \\\"quote\\\": \\\"\\\", \\\"reason\\\": \\\"\\\", \\\"status\\\": \\\"PENDING\\\", \\\"title\\\": \\\"Filler 22\\\", \\\"winner\\\": \\\"\\\"}\""
+    },
+    {
+      "label": "create-filler-23",
+      "hash": "0xe5d53be644b40082e09ff871419c24857c12f0ad8bb0808106f12c46e08c9350",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "errorPayload": "\"{\\\"contestant_a\\\": \\\"Filler\\\", \\\"contestant_b\\\": \\\"Dummy\\\", \\\"creator\\\": \\\"0xac632a07b5e90dbdd21634d5d0ddd1fb19589a03\\\", \\\"evidence_a_url\\\": \\\"https://example.com/a\\\", \\\"evidence_b_url\\\": \\\"https://example.com/b\\\", \\\"key_a\\\": \\\"filler\\\", \\\"key_b\\\": \\\"dummy\\\", \\\"match_id\\\": \\\"match-27\\\", \\\"protocol\\\": \\\"versus-1\\\", \\\"quote\\\": \\\"\\\", \\\"reason\\\": \\\"\\\", \\\"status\\\": \\\"PENDING\\\", \\\"title\\\": \\\"Filler 23\\\", \\\"winner\\\": \\\"\\\"}\""
+    },
+    {
+      "label": "create-filler-24",
+      "hash": "0x72f49b8656691dff991f32841ba55f4648a2ffed4726474d0646fd2c9decff1f",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "errorPayload": "\"{\\\"contestant_a\\\": \\\"Filler\\\", \\\"contestant_b\\\": \\\"Dummy\\\", \\\"creator\\\": \\\"0xac632a07b5e90dbdd21634d5d0ddd1fb19589a03\\\", \\\"evidence_a_url\\\": \\\"https://example.com/a\\\", \\\"evidence_b_url\\\": \\\"https://example.com/b\\\", \\\"key_a\\\": \\\"filler\\\", \\\"key_b\\\": \\\"dummy\\\", \\\"match_id\\\": \\\"match-28\\\", \\\"protocol\\\": \\\"versus-1\\\", \\\"quote\\\": \\\"\\\", \\\"reason\\\": \\\"\\\", \\\"status\\\": \\\"PENDING\\\", \\\"title\\\": \\\"Filler 24\\\", \\\"winner\\\": \\\"\\\"}\""
+    },
+    {
+      "label": "create-filler-25",
+      "hash": "0xfbde54f232014655d8cfc03b1c192b6403134b708a3dbe6e70b1536f01aa727a",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "errorPayload": "\"{\\\"contestant_a\\\": \\\"Filler\\\", \\\"contestant_b\\\": \\\"Dummy\\\", \\\"creator\\\": \\\"0xac632a07b5e90dbdd21634d5d0ddd1fb19589a03\\\", \\\"evidence_a_url\\\": \\\"https://example.com/a\\\", \\\"evidence_b_url\\\": \\\"https://example.com/b\\\", \\\"key_a\\\": \\\"filler\\\", \\\"key_b\\\": \\\"dummy\\\", \\\"match_id\\\": \\\"match-29\\\", \\\"protocol\\\": \\\"versus-1\\\", \\\"quote\\\": \\\"\\\", \\\"reason\\\": \\\"\\\", \\\"status\\\": \\\"PENDING\\\", \\\"title\\\": \\\"Filler 25\\\", \\\"winner\\\": \\\"\\\"}\""
+    },
+    {
+      "label": "create-filler-26",
+      "hash": "0x66730b6d4cdfea2ef76003161a0f72b259a656d35ab769d0ac6c6dfba8ef726d",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "errorPayload": "\"{\\\"contestant_a\\\": \\\"Filler\\\", \\\"contestant_b\\\": \\\"Dummy\\\", \\\"creator\\\": \\\"0xac632a07b5e90dbdd21634d5d0ddd1fb19589a03\\\", \\\"evidence_a_url\\\": \\\"https://example.com/a\\\", \\\"evidence_b_url\\\": \\\"https://example.com/b\\\", \\\"key_a\\\": \\\"filler\\\", \\\"key_b\\\": \\\"dummy\\\", \\\"match_id\\\": \\\"match-30\\\", \\\"protocol\\\": \\\"versus-1\\\", \\\"quote\\\": \\\"\\\", \\\"reason\\\": \\\"\\\", \\\"status\\\": \\\"PENDING\\\", \\\"title\\\": \\\"Filler 26\\\", \\\"winner\\\": \\\"\\\"}\""
+    },
+    {
+      "label": "create-filler-27",
+      "hash": "0xfb9f269a9d035132b43331df72b608b141effa3b16a5856bd22cbd413afa8652",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "errorPayload": "\"{\\\"contestant_a\\\": \\\"Filler\\\", \\\"contestant_b\\\": \\\"Dummy\\\", \\\"creator\\\": \\\"0xac632a07b5e90dbdd21634d5d0ddd1fb19589a03\\\", \\\"evidence_a_url\\\": \\\"https://example.com/a\\\", \\\"evidence_b_url\\\": \\\"https://example.com/b\\\", \\\"key_a\\\": \\\"filler\\\", \\\"key_b\\\": \\\"dummy\\\", \\\"match_id\\\": \\\"match-31\\\", \\\"protocol\\\": \\\"versus-1\\\", \\\"quote\\\": \\\"\\\", \\\"reason\\\": \\\"\\\", \\\"status\\\": \\\"PENDING\\\", \\\"title\\\": \\\"Filler 27\\\", \\\"winner\\\": \\\"\\\"}\""
+    },
+    {
+      "label": "create-filler-28",
+      "hash": "0xb7a5487e85a7d17e980ed8fe0793612312925ce3bc88a174b70bd6044f3fab99",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "errorPayload": "\"{\\\"contestant_a\\\": \\\"Filler\\\", \\\"contestant_b\\\": \\\"Dummy\\\", \\\"creator\\\": \\\"0xac632a07b5e90dbdd21634d5d0ddd1fb19589a03\\\", \\\"evidence_a_url\\\": \\\"https://example.com/a\\\", \\\"evidence_b_url\\\": \\\"https://example.com/b\\\", \\\"key_a\\\": \\\"filler\\\", \\\"key_b\\\": \\\"dummy\\\", \\\"match_id\\\": \\\"match-32\\\", \\\"protocol\\\": \\\"versus-1\\\", \\\"quote\\\": \\\"\\\", \\\"reason\\\": \\\"\\\", \\\"status\\\": \\\"PENDING\\\", \\\"title\\\": \\\"Filler 28\\\", \\\"winner\\\": \\\"\\\"}\""
+    },
+    {
+      "label": "create-filler-29",
+      "hash": "0x47cab8534c86d5f10006fa33a90111ccd658cc062c2cfe3b59f59768e1be79d9",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "errorPayload": "\"{\\\"contestant_a\\\": \\\"Filler\\\", \\\"contestant_b\\\": \\\"Dummy\\\", \\\"creator\\\": \\\"0xac632a07b5e90dbdd21634d5d0ddd1fb19589a03\\\", \\\"evidence_a_url\\\": \\\"https://example.com/a\\\", \\\"evidence_b_url\\\": \\\"https://example.com/b\\\", \\\"key_a\\\": \\\"filler\\\", \\\"key_b\\\": \\\"dummy\\\", \\\"match_id\\\": \\\"match-33\\\", \\\"protocol\\\": \\\"versus-1\\\", \\\"quote\\\": \\\"\\\", \\\"reason\\\": \\\"\\\", \\\"status\\\": \\\"PENDING\\\", \\\"title\\\": \\\"Filler 29\\\", \\\"winner\\\": \\\"\\\"}\""
+    },
+    {
+      "label": "create-filler-30",
+      "hash": "0x0ab4a3dc4e800e8f690db7de1a9c22ff2be1a25d5f2e77fee33ffd624c6e01bd",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "errorPayload": "\"{\\\"contestant_a\\\": \\\"Filler\\\", \\\"contestant_b\\\": \\\"Dummy\\\", \\\"creator\\\": \\\"0xac632a07b5e90dbdd21634d5d0ddd1fb19589a03\\\", \\\"evidence_a_url\\\": \\\"https://example.com/a\\\", \\\"evidence_b_url\\\": \\\"https://example.com/b\\\", \\\"key_a\\\": \\\"filler\\\", \\\"key_b\\\": \\\"dummy\\\", \\\"match_id\\\": \\\"match-34\\\", \\\"protocol\\\": \\\"versus-1\\\", \\\"quote\\\": \\\"\\\", \\\"reason\\\": \\\"\\\", \\\"status\\\": \\\"PENDING\\\", \\\"title\\\": \\\"Filler 30\\\", \\\"winner\\\": \\\"\\\"}\""
+    },
+    {
+      "label": "create-filler-31",
+      "hash": "0xb68eda067eabd3a37946fe9b12b11943bd9f5d119cd9da93146a42116e62485b",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "errorPayload": "\"{\\\"contestant_a\\\": \\\"Filler\\\", \\\"contestant_b\\\": \\\"Dummy\\\", \\\"creator\\\": \\\"0xac632a07b5e90dbdd21634d5d0ddd1fb19589a03\\\", \\\"evidence_a_url\\\": \\\"https://example.com/a\\\", \\\"evidence_b_url\\\": \\\"https://example.com/b\\\", \\\"key_a\\\": \\\"filler\\\", \\\"key_b\\\": \\\"dummy\\\", \\\"match_id\\\": \\\"match-35\\\", \\\"protocol\\\": \\\"versus-1\\\", \\\"quote\\\": \\\"\\\", \\\"reason\\\": \\\"\\\", \\\"status\\\": \\\"PENDING\\\", \\\"title\\\": \\\"Filler 31\\\", \\\"winner\\\": \\\"\\\"}\""
+    },
+    {
+      "label": "create-cap-33rd",
+      "hash": "0xd4d6fb2b63fc1e33dd2a08cad3c4b35179a73cfc35bae65f6e49f1b61438db94",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "errorPayload": "CAP_REACHED"
+    }
+  ],
+  "counts": {
+    "contestant_count": 4,
+    "judged_count": 3,
+    "match_count": 36,
+    "pending_count": 33
+  },
+  "leaderboard": {
+    "contestants": [
+      {
+        "losses": 1,
+        "name": "Aurora",
+        "ties": 0,
+        "wins": 1
+      },
+      {
+        "losses": 1,
+        "name": "Boreal",
+        "ties": 0,
+        "wins": 1
+      },
+      {
+        "losses": 0,
+        "name": "Cinder",
+        "ties": 1,
+        "wins": 0
+      },
+      {
+        "losses": 0,
+        "name": "Dune",
+        "ties": 1,
+        "wins": 0
+      }
+    ]
+  },
+  "matches": {
+    "match-0": {
+      "contestant_a": "Aurora",
+      "contestant_b": "Boreal",
+      "creator": "0x22daf7b7e1861989682dc464d7bef075300fac0c",
+      "evidence_a_url": "https://dpaste.org/q2gwq/raw",
+      "evidence_b_url": "https://dpaste.org/aOm7Y/raw",
+      "key_a": "aurora",
+      "key_b": "boreal",
+      "match_id": "match-0",
+      "protocol": "versus-1",
+      "quote": "Aurora has won 12 international titles, holds 3 world records, and was named champion in 2022, 2023, and 2024.",
+      "reason": "Page A cites specific, verifiable achievements: 12 international titles, 3 world records, and named champion in 2022-2024. Page B offers only participation in a local event and personal interests, with no comparable accomplishments.",
+      "status": "JUDGED",
+      "title": "Aurora vs Boreal, season final",
+      "winner": "A"
+    },
+    "match-1": {
+      "contestant_a": "Aurora",
+      "contestant_b": "Boreal",
+      "creator": "0x22daf7b7e1861989682dc464d7bef075300fac0c",
+      "evidence_a_url": "https://dpaste.org/FjeME/raw",
+      "evidence_b_url": "https://dpaste.org/zMVtC/raw",
+      "key_a": "aurora",
+      "key_b": "boreal",
+      "match_id": "match-1",
+      "protocol": "versus-1",
+      "quote": "Boreal has won 15 international titles, holds 5 world records, and was named champion in 2021, 2022, 2023, 2024, and 2025.",
+      "reason": "Page B presents specific, verifiable achievements including 15 international titles, 5 world records, and five consecutive championship years, vastly outweighing Page A's vague workshop attendance.",
+      "status": "JUDGED",
+      "title": "Aurora vs Boreal, rematch",
+      "winner": "B"
+    },
+    "match-2": {
+      "contestant_a": "Cinder",
+      "contestant_b": "Dune",
+      "creator": "0x22daf7b7e1861989682dc464d7bef075300fac0c",
+      "evidence_a_url": "https://dpaste.org/HmiE6/raw",
+      "evidence_b_url": "https://dpaste.org/TReTF/raw",
+      "key_a": "cinder",
+      "key_b": "dune",
+      "match_id": "match-2",
+      "protocol": "versus-1",
+      "quote": "",
+      "reason": "两页内容除姓名外完全一致，均提到2023年获得2个地区冠军、周末执教青少年、每周训练三次，证据强度相同，无法判定一方更强。",
+      "status": "JUDGED",
+      "title": "Cinder vs Dune, even draw",
+      "winner": "TIE"
+    },
+    "match-3": {
+      "contestant_a": "Ember",
+      "contestant_b": "Frost",
+      "creator": "0x22daf7b7e1861989682dc464d7bef075300fac0c",
+      "evidence_a_url": "https://dpaste.org/LUgRA/raw",
+      "evidence_b_url": "https://no-such-host-xyz-12345.invalid/evidence.txt",
+      "key_a": "ember",
+      "key_b": "frost",
+      "match_id": "match-3",
+      "protocol": "versus-1",
+      "quote": "",
+      "reason": "",
+      "status": "PENDING",
+      "title": "Ember vs Frost, pending",
+      "winner": ""
+    }
+  },
+  "contestants": {
+    "aurora": {
+      "losses": 1,
+      "name": "Aurora",
+      "ties": 0,
+      "wins": 1
+    },
+    "boreal": {
+      "losses": 1,
+      "name": "Boreal",
+      "ties": 0,
+      "wins": 1
+    },
+    "cinder": {
+      "losses": 0,
+      "name": "Cinder",
+      "ties": 1,
+      "wins": 0
+    },
+    "dune": {
+      "losses": 0,
+      "name": "Dune",
+      "ties": 1,
+      "wins": 0
+    },
+    "ember": null,
+    "frost": null
+  },
+  "verified": true
+}

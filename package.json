@@ -1,0 +1,29 @@
+{
+  "name": "versus-genlayer",
+  "version": "1.0.0",
+  "description": "Versus: pairwise head-to-head judging on GenLayer Studionet",
+  "main": "index.js",
+  "scripts": {
+    "check": "python3 scripts/check_contract.py",
+    "test:standin": "python3 -m unittest discover -s tests_standin -v",
+    "test:direct": "python3 -m unittest discover -s tests_direct -v",
+    "test": "python3 scripts/check_contract.py && python3 -m unittest discover -s tests_standin && python3 -m unittest discover -s tests_direct",
+    "deploy": "node scripts/deploy.mjs",
+    "loop": "node scripts/loop.mjs",
+    "readback": "node scripts/readback.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chuanqili77/versus-genlayer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chuanqili77/versus-genlayer/issues"
+  },
+  "homepage": "https://github.com/chuanqili77/versus-genlayer#readme",
+  "dependencies": {
+    "genlayer-js": "^1.1.8"
+  }
+}

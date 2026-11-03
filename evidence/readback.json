@@ -1,0 +1,252 @@
+{
+  "contractAddress": "0x5daDB9584f0cb94CAabE765946CB3aAb6e4f277C",
+  "checks": [
+    {
+      "name": "counts",
+      "ok": true,
+      "actual": {
+        "contestant_count": 4,
+        "judged_count": 3,
+        "match_count": 36,
+        "pending_count": 33
+      },
+      "expected": {
+        "match_count": 36,
+        "judged_count": 3,
+        "pending_count": 33,
+        "contestant_count": 4
+      }
+    },
+    {
+      "name": "leaderboard",
+      "ok": true,
+      "actual": {
+        "contestants": [
+          {
+            "losses": 1,
+            "name": "Aurora",
+            "ties": 0,
+            "wins": 1
+          },
+          {
+            "losses": 1,
+            "name": "Boreal",
+            "ties": 0,
+            "wins": 1
+          },
+          {
+            "losses": 0,
+            "name": "Cinder",
+            "ties": 1,
+            "wins": 0
+          },
+          {
+            "losses": 0,
+            "name": "Dune",
+            "ties": 1,
+            "wins": 0
+          }
+        ]
+      },
+      "expected": {
+        "contestants": [
+          {
+            "name": "Aurora",
+            "wins": 1,
+            "losses": 1,
+            "ties": 0
+          },
+          {
+            "name": "Boreal",
+            "wins": 1,
+            "losses": 1,
+            "ties": 0
+          },
+          {
+            "name": "Cinder",
+            "wins": 0,
+            "losses": 0,
+            "ties": 1
+          },
+          {
+            "name": "Dune",
+            "wins": 0,
+            "losses": 0,
+            "ties": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "match-0 status",
+      "ok": true,
+      "actual": "JUDGED",
+      "expected": "JUDGED"
+    },
+    {
+      "name": "match-0 winner",
+      "ok": true,
+      "actual": "A",
+      "expected": "A"
+    },
+    {
+      "name": "match-0 quote non-empty",
+      "ok": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "match-0 reason bounded",
+      "ok": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "match-1 status",
+      "ok": true,
+      "actual": "JUDGED",
+      "expected": "JUDGED"
+    },
+    {
+      "name": "match-1 winner",
+      "ok": true,
+      "actual": "B",
+      "expected": "B"
+    },
+    {
+      "name": "match-1 quote non-empty",
+      "ok": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "match-1 reason bounded",
+      "ok": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "match-2 status",
+      "ok": true,
+      "actual": "JUDGED",
+      "expected": "JUDGED"
+    },
+    {
+      "name": "match-2 winner",
+      "ok": true,
+      "actual": "TIE",
+      "expected": "TIE"
+    },
+    {
+      "name": "match-2 quote empty",
+      "ok": true,
+      "actual": "",
+      "expected": ""
+    },
+    {
+      "name": "match-3 status",
+      "ok": true,
+      "actual": "PENDING",
+      "expected": "PENDING"
+    },
+    {
+      "name": "match-3 winner",
+      "ok": true,
+      "actual": "",
+      "expected": ""
+    },
+    {
+      "name": "contestant aurora",
+      "ok": true,
+      "actual": {
+        "losses": 1,
+        "name": "Aurora",
+        "ties": 0,
+        "wins": 1
+      },
+      "expected": {
+        "name": "Aurora",
+        "wins": 1,
+        "losses": 1,
+        "ties": 0
+      }
+    },
+    {
+      "name": "contestant boreal",
+      "ok": true,
+      "actual": {
+        "losses": 1,
+        "name": "Boreal",
+        "ties": 0,
+        "wins": 1
+      },
+      "expected": {
+        "name": "Boreal",
+        "wins": 1,
+        "losses": 1,
+        "ties": 0
+      }
+    },
+    {
+      "name": "contestant cinder",
+      "ok": true,
+      "actual": {
+        "losses": 0,
+        "name": "Cinder",
+        "ties": 1,
+        "wins": 0
+      },
+      "expected": {
+        "name": "Cinder",
+        "wins": 0,
+        "losses": 0,
+        "ties": 1
+      }
+    },
+    {
+      "name": "contestant dune",
+      "ok": true,
+      "actual": {
+        "losses": 0,
+        "name": "Dune",
+        "ties": 1,
+        "wins": 0
+      },
+      "expected": {
+        "name": "Dune",
+        "wins": 0,
+        "losses": 0,
+        "ties": 1
+      }
+    },
+    {
+      "name": "contestant AURORA",
+      "ok": true,
+      "actual": {
+        "losses": 1,
+        "name": "Aurora",
+        "ties": 0,
+        "wins": 1
+      },
+      "expected": {
+        "name": "Aurora",
+        "wins": 1,
+        "losses": 1,
+        "ties": 0
+      }
+    },
+    {
+      "name": "contestant ember has no record",
+      "ok": true,
+      "actual": "",
+      "expected": ""
+    },
+    {
+      "name": "contestant frost has no record",
+      "ok": true,
+      "actual": "",
+      "expected": ""
+    }
+  ],
+  "passed": true
+}
